@@ -5,7 +5,7 @@ static float rotation = {0.0f};
 static float timer = 0.0f;
 static int sides = 0;
 int main(){
-    InitWindow(width, height, "game");
+    InitWindow(width, height, "example");
     SetTargetFPS(60);
     while(!WindowShouldClose()){
         BeginDrawing();
